@@ -1,0 +1,115 @@
+{
+  "user_details":{
+      "frenzyvjn":{
+         "score":2,
+         "qs":["2","0"],
+         "team":["Edita"],
+         "cash":0
+      },
+      "0xkits":{
+         "score":0,
+         "qs":[],
+         "team":["monkey-squad"],
+         "cash":0
+      },
+      "hotaru_hspr":{
+         "score":2,
+         "qs":["2","0"],
+         "team":["Edita"],
+         "cash":0
+      },
+      "gzfs":{
+         "score":0,
+         "qs":[],
+         "team":["monkey-squad"],
+         "cash":0
+      },
+      "apex007":{
+         "score":2,
+         "qs":["0","2"],
+         "team":["Spectre"],
+         "cash":0
+      },
+      "divyabonkey":{
+         "score":0,
+         "qs":[],
+         "team":["divyabonkey"],
+         "cash":0
+      },
+      "drunkencloud":{
+         "score":2,
+         "qs":["2","0"],
+         "team":["Arcane Tarot Club"],
+         "cash":0
+      },
+      "0xkryo":{
+         "score":0,
+         "qs":[],
+         "team":["goo goo gaa gaa"],
+         "cash":0
+      }
+  },
+   "teams":{
+      "monkey-squad":{
+         "members":["0xkits","gzfs"],
+         "password":["vijayanmom"],
+         "score":0,
+         "qs":[],
+         "role_id":1191056242525880351,
+         "team_cash":0
+      },
+      "Spectre":{
+         "members":["apex007"],
+         "password":["92Spec75$"],
+         "score":-1,
+         "qs":["0","2"],
+         "role_id":1192192802927415296,
+         "team_cash":0
+      },
+      "Edita":{
+         "members":["hotaru_hspr","frenzyvjn"],
+         "password":["Edita"],
+         "score":-1,
+         "qs":["2","0"],
+         "role_id":1192337632928211084,
+         "team_cash":0
+      },
+      "divyabonkey":{
+         "members":["divyabonkey"],
+         "password":["Gaysonly@123"],
+         "score":0,
+	
+         "qs":[],
+         "role_id":1192337722916995112,
+         "team_cash":0
+      },
+      "Arcane Tarot Club":{
+         "members":["drunkencloud"],
+         "password":["Gray_Fog"],
+         "score":-1,
+         "qs":["2","0"],
+         "role_id":1192338505712553984,
+         "team_cash":0
+      },
+      "goo goo gaa gaa":{
+         "members":["0xkryo"],
+         "password":["12345"],
+         "score":0,
+         "qs":[],
+         "role_id":1195759387835375626,
+         "team_cash":0
+      }
+   },
+  "question": {
+      "2":{
+         "question":"Decoding Do you know base64? I have heard about something called BaseFFFF+1 can you find what it means ---> ꍦ鱡桻顮餰𐘱鑧𓄱饟鬱桦桲𓉮魟敲鑭𐘳𓁣𒅹晴𐘰ᕽ",
+         "author":"divyabonkey",
+         "flag":["flag{3nc0d1ng_1s_d1ff3r3nt_fr0m_3ncrypt10n}"]
+      },
+      "0":{
+         "question":"your flag is flag{testing}",
+         "author":"frenzyvjn",
+         "flag":["flag{testing}"]
+      }
+   }
+}
