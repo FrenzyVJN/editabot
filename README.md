@@ -38,7 +38,7 @@ GEMINI_API_KEY=your-gemini-api-key
 Run the bot:
 
 ```sh
-python bot.py
+python main.py
 ```
 Usage
 ```
