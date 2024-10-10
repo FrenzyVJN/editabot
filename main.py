@@ -14,7 +14,15 @@ from astrapy.db import AstraDB
 import datetime
 import time
 import requests
+# db = AstraDB(
+#   token="AstraCS:pDdyrHqxZsOJzbgTRQCnFeih:692aaa848f9de9a3c3d260da84f379b59cf9e13070433978b755fd9b71446ce6",
+#   api_endpoint="https://5088dd79-ba17-4009-b3b2-4de79a6aa1f3-centralindia.apps.astra.datastax.com",
+#   )
+# #collection = db.create_collection("discordchat", dimension=5, metric="cosine")
+# print(f"Connected to Astra DB: {db.get_collections()}")
 
+# # print(collection)
+# collection = db.collection("discordchat")
 
 json_file_path = "data.json"
 
@@ -64,7 +72,7 @@ async def on_ready():
     await client.tree.sync()
     print('We have logged in as {0.user}'.format(client))
 
-    genai.configure(api_key=<ADD YOUR GEMINI API KEY HERE>)
+    genai.configure(api_key="AIzaSyDREJlYov_T2kaZ3si1nS77sJH7FHrEzHA")
     generation_config = {"temperature":0.9, "top_p":1, "top_k":1, "max_output_tokens":2048}
     model = genai.GenerativeModel("gemini-pro", generation_config=generation_config)
     #a = "You are Edita bot. You are here to assist us with our queries. '"+input()+"' answer in less than 100 words"
@@ -677,7 +685,7 @@ async def on_disconnect():
         save_data()
 
 try:
-    token = <ADD YOUR BOT TOKEN HERE>
+    token = '<ADD YOUR DISCORD BOT TOKEN HERE>' #main bot
     if token == "":
         raise Exception("Please add your token to the Secrets pane.")
     client.run(token)
